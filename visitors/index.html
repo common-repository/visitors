@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<title>Visitors</title>
+	</head>
+	<body>
+		<h2>The HTML version</h2>
+		<DIV id="haxe:trace"></DIV>
+		<DIV id="VisitorsDIV"></DIV>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<h2>The Flash version</h2>
+		<DIV>
+			<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' width='100%' height='300' id='player1' name='player1'>
+			   <param name='movie' value='Visitors.swf'>
+			   <param name='allowNetworking' value='all'>
+			   <param name='allowscriptaccess' value='always'>
+			   <param name='flashvars' value=''>
+			   <param name='scale' value='noscale'>
+			   <embed id='player1'
+			          name='player1'
+			          src='Visitors.swf'
+			          width='100%'
+			          height='300'
+			          allowscriptaccess='always'
+			          allowNetworking='all'
+			          flashvars="applicationName=Application Name&instanceName=Instance Name&"
+			          scale="noScale"
+			   />
+			</object>
+		</DIV>
+		
+		<script type="text/javascript">
+			$jsvars = {};
+			$jsvars.applicationName = "Application Name";
+			$jsvars.instanceName = "Instance Name";
+		</script>
+		<script type="text/javascript" src="Visitors.js"></script>
+	</body>
+</html>

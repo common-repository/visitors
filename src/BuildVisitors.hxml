@@ -1,0 +1,20 @@
+-cp ./
+-cp ./libs/AXLib/
+-cp ./libs/SLDialog/
+
+-main Visitors
+-swf9 ../bin/Visitors.swf
+-D network-sandbox
+-lib hxjson2
+#--no-traces
+
+--next
+
+-cp ./
+-cp ./libs/AXLib/
+-cp ./libs/SLDialog/
+
+-main Visitors
+-js ../bin/Visitors.js
+-lib hxjson2
+#--no-traces
